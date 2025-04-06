@@ -1,0 +1,34 @@
+<input type="text" />
+<input type="color" />
+<input type="checkbox" />
+<input type="date" />
+<input type="email" />
+<input type="file" />
+<input type="month" />
+<input type="number" />
+<input type="password" />
+<input type="radio" />
+<input type="reset" />
+<input type="search" />
+<input type="tel" />
+<input type="time" />
+<input type="url" />
+<input type="week" />
+<input id="name" type="text" name="nome" value="" required />
+<input id="password" type="password" required />
+<label for="password">Password</label>
+<input id="email" type="email" required />
+<label for="email">E-mail address</label>
+<style>
+    input:required ~ label::after {
+  content: " (required)";
+  font-size: 0.8em;
+  color: #000;
+}
+input:valid {
+  border-color: #090;
+}
+input:invalid {
+  border-color: #900;
+}
+</style>

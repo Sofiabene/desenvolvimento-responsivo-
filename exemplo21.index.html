@@ -1,0 +1,26 @@
+<form action="#">
+    <input type="text" placeholder="Nome" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Sobrenome">
+    <input type="text" placeholder="Escolaridade">
+  </form>
+  <style>
+input {
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 125px;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+}
+input:optional {
+  border-color: gray;
+}
+input:required {
+  border-color: black;
+}
+input:invalid {
+  border-color: red;
+}
+  </style>

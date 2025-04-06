@@ -1,0 +1,8 @@
+a{
+    color: black;
+    background-color: white;
+}
+a:hover a:focus{
+    color: white;
+    background-color: black;
+}
